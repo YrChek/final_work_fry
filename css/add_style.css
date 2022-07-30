@@ -1,0 +1,35 @@
+.head {
+    text-transform: uppercase;
+}
+
+.last {
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.invisible {
+    opacity: 0;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+
+.rub {
+    position: relative;
+    margin-left: 0.35em;
+}
+
+.rub::after{
+    position: absolute;
+    content: "-";
+    left: 0.15em;
+    top: 0.35em;
+} 
